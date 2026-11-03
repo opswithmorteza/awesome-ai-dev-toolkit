@@ -1,2 +1,120 @@
-# awesome-ai-dev-toolkit
-Categorized AI coding, web design, UI/UX, MCP and token-saving tools. Practical guides for Codex and Claude Code | راهنمای فارسی ابزارهای هوش مصنوعی
+# AI Development Toolkit | راهنمای ابزارهای توسعه با هوش مصنوعی
+
+فهرست عمومی و دسته‌بندی‌شده برای انتخاب ابزارهای کدنویسی، طراحی سایت، UI/UX، اتصال GitHub و کاهش مصرف توکن.
+
+این مخزن یک راهنمای انتخاب است؛ کد پروژه‌های دیگر اینجا کپی نشده است. برای نصب، مجوز استفاده و آخرین سازگاری، مستندات مخزن اصلی هر ابزار را ببینید.
+
+## اگر از Codex استفاده می‌کنید
+
+| ابزار | چه زمانی استفاده کنیم؟ | نحوه استفاده |
+|---|---|---|
+| [GitHub MCP](https://github.com/github/github-mcp-server) | کار با مخزن، ایشو و Pull Request | اتصال سرور MCP و اعطای دسترسی لازم به حساب مقصد |
+| [Context7](https://github.com/upstash/context7) | دریافت مستندات کتابخانه‌ها | اتصال MCP و درخواست مستندات مربوط به نسخه مورد استفاده |
+| [Playwright MCP](https://github.com/microsoft/playwright-mcp) | بررسی رفتار سایت در مرورگر | اتصال MCP؛ سپس درخواست بررسی صفحات و جریان کاربری |
+| [Serena](https://github.com/oraios/serena) | جست‌وجو و ویرایش دقیق در پروژه‌های بزرگ | اتصال MCP و معرفی پروژه؛ بازیابی نمادها و ارجاع‌های مرتبط |
+| [RTK](https://github.com/rtk-ai/rtk) | کوتاه‌کردن خروجی فرمان‌های توسعه | ابزار خط فرمان؛ راهنمای اختصاصی Codex در مخزن اصلی |
+| [UI UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | انتخاب سبک، رنگ، تایپوگرافی و الگوهای رابط | نصب نسخه مهارت مخصوص Codex طبق راهنمای پروژه |
+
+پیشنهاد شروع: اتصال GitHub، مستندات Context7 و بررسی مرورگر؛ برای پروژه‌های بزرگ Serena و برای خروجی طولانی فرمان‌ها RTK را ارزیابی کنید. نصب همه ابزارها به‌صورت هم‌زمان ضروری نیست.
+
+## اگر از Claude Code استفاده می‌کنید
+
+| ابزار | کاربرد | نحوه استفاده |
+|---|---|---|
+| [GitHub MCP](https://github.com/github/github-mcp-server) | مدیریت کارهای GitHub | ثبت سرور در تنظیمات MCP کلاینت |
+| [Context7](https://github.com/upstash/context7) | مستندات به‌روز هنگام کدنویسی | اتصال MCP و درخواست مستندات مرتبط |
+| [Playwright MCP](https://github.com/microsoft/playwright-mcp) | کار با مرورگر و بررسی سایت | اتصال MCP و تعریف سناریوی بررسی |
+| [Serena](https://github.com/oraios/serena) | تحلیل ساختار و ارجاع‌های کد | اتصال MCP و فعال‌کردن پروژه |
+| [RTK](https://github.com/rtk-ai/rtk) | کاهش خروجی اضافی فرمان‌ها | راه‌اندازی یکپارچه‌سازی Claude Code طبق README اصلی |
+| [UI UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | راهنمای طراحی UI/UX | نصب نسخه سازگار با Claude Code طبق مستندات اصلی |
+
+ابزارهای MCP بالا میان چند دستیار مشترک‌اند، اما محل تنظیم و شیوه احراز هویت هر کلاینت فرق دارد. مهارت مخصوص یک دستیار را بدون بررسی سازگاری در دستیار دیگر نصب نکنید.
+
+## کاهش مصرف توکن و مدیریت زمینه
+
+| پروژه | روش کمک | محدودیت |
+|---|---|---|
+| [RTK](https://github.com/rtk-ai/rtk) | فیلتر خروجی Git، تست‌ها و فرمان‌های پشتیبانی‌شده | درصد کاهش خروجی فرمان، معادل کاهش کل مصرف یک کار نیست |
+| [Headroom](https://github.com/headroomlabs-ai/headroom) | فشرده‌سازی خروجی ابزارها، لاگ و داده‌های بازیابی‌شده | به ادغام فنی نیاز دارد؛ اثر را روی کار واقعی بسنجید |
+| [Serena](https://github.com/oraios/serena) | بازیابی بخش مرتبط کد به‌جای خواندن فایل‌های کامل | مزیت به زبان و اندازه پروژه بستگی دارد |
+| [QMD](https://github.com/tobi/qmd) | جست‌وجوی محلی مستندات و یادداشت‌ها | برای دانش متنی و بازیابی انتخابی مناسب است |
+| [Repomix](https://github.com/yamadashy/repomix) | انتخاب فایل، شمارش توکن و استخراج ساختار فشرده کد | ارسال کل مخزن بدون فیلتر می‌تواند مصرف را بیشتر کند |
+| [LLMLingua](https://github.com/microsoft/LLMLingua) | فشرده‌سازی پرامپت با مدل کوچک‌تر | بیشتر برای ساخت برنامه API؛ پلاگین آماده Codex نیست |
+
+معیار درست: مصرف کل تا رسیدن به نتیجه صحیح. فشرده‌سازی شدید ممکن است موجب حذف اطلاعات، تکرار کار و افزایش هزینه شود. درصدهای تبلیغ‌شدهٔ پروژه‌ها تضمین صرفه‌جویی برای پروژه شما نیستند.
+
+## حافظه ماندگار؛ Graphiti و گزینه‌های مشابه
+
+| ابزار | کاربرد | مناسب چه کسی است؟ |
+|---|---|---|
+| [Graphiti](https://github.com/getzep/graphiti) | گراف دانش با رابطه‌ها و تغییرات زمانی | پروژه‌های طولانی که حفظ تصمیم‌ها و ارتباط اطلاعات مهم است |
+| [Mem0](https://github.com/mem0ai/mem0) | لایه حافظه برای عامل‌ها و برنامه‌های AI | سازندگان برنامه‌های دارای حافظه کاربر یا عامل |
+| [Supermemory](https://github.com/supermemoryai/supermemory) | ذخیره و بازیابی زمینه | برنامه‌هایی که به حافظه و جست‌وجوی اطلاعات نیاز دارند |
+
+Graphiti می‌تواند اطلاعات مرتبط را به‌جای تاریخچه کامل بازیابی کند، اما استخراج، ذخیره و جست‌وجو نیز هزینه دارند. اتصال آن به دستیار به راه‌اندازی و یکپارچه‌سازی جداگانه نیاز دارد؛ صرف وجود این مخزن مصرف Codex یا Claude را کاهش نمی‌دهد.
+
+## ساخت سایت و اپلیکیشن وب
+
+| پروژه | نوع | کاربرد |
+|---|---|---|
+| [Next.js](https://github.com/vercel/next.js) | چارچوب React | سایت و اپلیکیشن وب با کدنویسی |
+| [bolt.diy](https://github.com/stackblitz-labs/bolt.diy) | محیط ساخت وب با AI | ساخت و ویرایش برنامه با دستور متنی |
+| [GrapesJS](https://github.com/GrapesJS/grapesjs) | چارچوب ویرایشگر بصری | ساخت صفحه‌ساز و ویرایشگر قالب |
+| [Webstudio](https://github.com/webstudio-is/webstudio) | سایت‌ساز بصری | طراحی سایت با رابط گرافیکی |
+
+## کتابخانه‌های رابط کاربری؛ قابل استفاده با Codex و Claude
+
+این ابزارها داخل پروژه نصب می‌شوند؛ افزونه دستیار نیستند. می‌توانید از دستیار بخواهید رابط را با یکی از آن‌ها پیاده‌سازی کند.
+
+| پروژه | مناسب برای |
+|---|---|
+| [Bootstrap](https://github.com/twbs/bootstrap) | چیدمان واکنش‌گرا و اجزای عمومی HTML/CSS |
+| [Ant Design](https://github.com/ant-design/ant-design) | پنل مدیریت و نرم‌افزارهای سازمانی React |
+| [Material UI](https://github.com/mui/material-ui) | اجزای React با زبان طراحی Material |
+| [shadcn/ui](https://github.com/shadcn-ui/ui) | رابط React با اجزای قابل شخصی‌سازی |
+
+## طراحی UI/UX و مستندسازی
+
+| پروژه | کاربرد |
+|---|---|
+| [Penpot](https://github.com/penpot/penpot) | طراحی رابط و نمونه‌سازی تیمی |
+| [Excalidraw](https://github.com/excalidraw/excalidraw) | وایرفریم اولیه، دیاگرام و ایده‌پردازی |
+| [Storybook](https://github.com/storybookjs/storybook) | نمایش، مستندسازی و آزمایش مستقل اجزای رابط |
+| [UI UX Pro Max](https://github.com/nextlevelbuilder/ui-ux-pro-max-skill) | مهارت راهنمای طراحی برای دستیارهای سازگار |
+
+## دستیارهای مستقل کدنویسی
+
+این‌ها جایگزین یا محیط جداگانه‌اند؛ نصب آن‌ها به معنی اضافه‌شدن پلاگین به Codex نیست.
+
+- [OpenCode](https://github.com/anomalyco/opencode): دستیار متن‌باز کدنویسی.
+- [Codex](https://github.com/openai/codex): مخزن ابزار خط فرمان OpenAI.
+- [Gemini CLI](https://github.com/google-gemini/gemini-cli): دستیار خط فرمان Gemini.
+- [OpenHands](https://github.com/OpenHands/OpenHands): پلتفرم عامل‌های توسعه نرم‌افزار.
+- [Cline](https://github.com/cline/cline): عامل کدنویسی برای ویرایشگر و محیط‌های دیگر.
+- [Continue](https://github.com/continuedev/continue): ابزار متن‌باز دستیار کدنویسی.
+- [Aider](https://github.com/Aider-AI/aider): دستیار کدنویسی در ترمینال.
+
+## فهرست‌های کشف ابزار
+
+- [Awesome MCP Servers](https://github.com/punkpeye/awesome-mcp-servers): فهرست اتصال‌های MCP.
+- [MCP Reference Servers](https://github.com/modelcontextprotocol/servers): سرورهای مرجع پروتکل MCP.
+
+## انتخاب بر اساس سناریو
+
+| هدف | ترکیب پیشنهادی برای ارزیابی |
+|---|---|
+| طراحی سایت با Codex یا Claude Code | Next.js + یکی از کتابخانه‌های UI + Context7 + Playwright MCP |
+| کار روی مخزن بزرگ | Serena + جست‌وجوی هدفمند + RTK |
+| مرور اولیه پروژه | Repomix با انتخاب فایل و شمارش توکن |
+| حفظ تصمیم‌های پروژه در بلندمدت | ارزیابی Graphiti یا Mem0 با ادغام اختصاصی |
+| طراحی بصری پیش از پیاده‌سازی | Penpot + Excalidraw |
+
+## محبوبیت و فورک‌ها
+
+انتخاب اولیه این فهرست با توجه به ارتباط کاربردی و پروژه‌های دارای فورک قابل توجه انجام شده است؛ رتبه‌بندی جامع گیت‌هاب نیست. تعداد فورک تغییر می‌کند و به‌تنهایی معیار کیفیت یا صرفه‌جویی نیست. برای آمار زنده روی لینک پروژه اصلی کلیک کنید.
+
+## مشارکت و مجوز
+
+برای پیشنهاد ابزار، اصلاح توضیح یا گزارش لینک خراب، Issue یا Pull Request باز کنید. کاربرد، کلاینت سازگار، روش نصب رسمی و محدودیت‌ها را ذکر کنید.
+
+متن تألیفی این راهنما تحت [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/) برای استفاده و بازنشر آزاد ارائه می‌شود. کد، نام تجاری و محتوای پروژه‌های لینک‌شده تابع مجوز و شرایط خود آن پروژه‌هاست. این فهرست وابسته یا مورد تأیید رسمی صاحبان ابزارها نیست.
